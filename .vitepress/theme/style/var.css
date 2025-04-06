@@ -1,0 +1,43 @@
+/* var.css */
+:root {
+  --vp-c-brand-1: #7484f1;
+  --vp-c-brand-2: #5565cc;
+  --vp-c-brand-3: #5c6fee;
+}
+
+.dark {
+  --vp-c-brand-1: #7484f1;
+  --vp-c-brand-2: #5565cc;
+  --vp-c-brand-3: #5c6fee;
+}
+
+.wniui-icp {
+  flex-direction: row;
+  align-items: center;
+}
+
+.wniui-icp a {
+  margin-left: 10px;
+  text-decoration: none !important;
+  
+}
+
+.wniui-icp img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 15px;
+  margin: 5px;
+}
+
+@media screen and (max-width:768px) {
+  .wniui-icp a {
+    display: block
+  }
+}
+
+.container .content img{
+  border-radius: 10px;
+}
+:root {  
+  --vp-layout-max-width: 80%;
+}
